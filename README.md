@@ -1,18 +1,18 @@
-### Obtaining an Imgur Client ID (Optional)
+## Obtaining an Imgur Client ID (Optional)
 
 1. Go to Imgur's application registration page (<https://api.imgur.com/oauth2/addclient>)
 2. Enter a name for the application and select "OAuth2 without a callback URL", and enter you email address.
 3. Submit the form to obtain your application's client ID
 
 
-### Dynamic Button URL (Optional)
+## Dynamic Button URL (Optional)
 
 When streaming media a direct link will be provided to the media info for either IMDb or TMDB by using dynamic URL placeholders.
 
-1. IMDb: `dynamic:imdb`
-2. TMDB: `dynamic:tmdb`
+- IMDb: `dynamic:imdb`
+-  TMDB: `dynamic:tmdb`
 
-A Discord bug makes the buttons unresponsive for your own account, but other users are able to use them without issue.
+*A Discord bug makes the buttons unresponsive for your own account, but other users are able to use them without issue.*
 
 | DATA | TYPE | OPTION | DESCRIPTION |
 | --- | --- | --- | --- |
@@ -100,7 +100,7 @@ docker run -d \
 <br />
 <br />
 
-# EXAMPLE: config.json
+# EXAMPLE CONFIG.JSON
 
 ```
 {
