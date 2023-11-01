@@ -99,7 +99,8 @@ docker run -d \
 ```
 <br />
 <br />
-EXAMPLE: config.json
+
+# EXAMPLE: config.json
 
 ```
 {
