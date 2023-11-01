@@ -69,7 +69,7 @@ When streaming media a direct link will be provided to the media info for either
 5. Login to your Discord Account
 6. Run Plex-RPC Docker
 7. Check output for URL to connect Plex account
-8. Add extra settings to `config.json`and restart Plex-RPC container (Optional)
+8. Add extra settings to `config.json` and restart Plex-RPC container (Optional)
 <br />
 
 Replace with your own information. 
