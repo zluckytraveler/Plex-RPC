@@ -1,22 +1,3 @@
-## Obtaining Imgur Client ID (Optional)
-
-1. Go to Imgur's application registration page (<https://api.imgur.com/oauth2/addclient>)
-2. Enter a name for the application and select "OAuth2 without a callback URL", and enter you email address.
-3. Submit the form to obtain your application's client ID
-
-
-## Dynamic Button URL (Optional)
-
-When streaming media a direct link will be provided to the media info for either IMDb or TMDB by using dynamic URL placeholders.
-
-- IMDb: `dynamic:imdb`
--  TMDB: `dynamic:tmdb`
-
-*A Discord bug makes the buttons unresponsive for your own account, but other users are able to use them without issue.*
-
-<br />
-<br />
-
 # INSTALL
 ## LOCAL
 
@@ -85,7 +66,6 @@ docker run -d \
   zluckytraveler/plex-rpc
 ```
 <br />
-<br />
 
 # CONFIG SETTINGS
 
@@ -109,6 +89,24 @@ docker run -d \
 |`listenForUser`| string |optional | Finds a session for a specific user like a managed user or shared user, defaults to the account username if not set |
 |`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
 |`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
+
+<br />
+
+## Obtaining Imgur Client ID (Optional)
+
+1. Go to Imgur's application registration page (<https://api.imgur.com/oauth2/addclient>)
+2. Enter a name for the application and select "OAuth2 without a callback URL", and enter you email address.
+3. Submit the form to obtain your application's client ID
+
+
+## Dynamic Button URL (Optional)
+
+When streaming media a direct link will be provided to the media info for either IMDb or TMDB by using dynamic URL placeholders.
+
+- IMDb: `dynamic:imdb`
+-  TMDB: `dynamic:tmdb`
+
+*A Discord bug makes the buttons unresponsive for your own account, but other users are able to use them without issue.*
 
 <br />
 
