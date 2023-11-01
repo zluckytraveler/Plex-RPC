@@ -41,7 +41,6 @@ When streaming media a direct link will be provided to the media info for either
 <br />
 
 # INSTALL
-
 ## LOCAL
 
 ### PREREQUISITES
