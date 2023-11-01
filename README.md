@@ -53,9 +53,9 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 1. `cd <path to directory>`
 2. `py -m pip install -U -r requirements.txt`
 3. `py bot.py`
-
-
-**DOCKER**
+<br />
+<br />
+## DOCKER
 1. Run Discord Docker
 2. Go to https://YOUR-IP:6901 (Can use different pc) 
 3. User = `kasm_user`
@@ -64,12 +64,14 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 6. Run Plex-RPC Docker
 7. Check output for URL to connect Plex account
 8. Add extra settings to `config.json`and restart Plex-RPC container (Optional)
-
+<br />
+<br />
 Replace with your own information. 
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
-
+<br />
+<br />
 **Docker Discord**
 ```
 docker run -d \
@@ -91,7 +93,8 @@ docker run -d \
   -v /PATH/TO/Plex-RPC/unix-socket:/run/app:ro \
   zluckytraveler/plex-rpc
 ```
-
+<br />
+<br />
 EXAMPLE: config.json
 
 ```
