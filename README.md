@@ -44,12 +44,12 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 - Python 3.10
 -  Pip
    
-**Mac & Linux**
+### Mac & Linux
 1. `cd <path to directory>`
 2. `python3 -m pip install -U -r requirements.txt`
 3. `python3 bot.py`
 
-**Windows**
+### Windows
 1. `cd <path to directory>`
 2. `py -m pip install -U -r requirements.txt`
 3. `py bot.py`
