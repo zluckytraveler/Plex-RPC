@@ -81,7 +81,7 @@ docker run -d \
 |`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
 |`buttons`| list | optional | |
 |`label`| string | | The label that shows for the button | 
-|`url`| string | | Any url the button directs to when clicked or dynamic butttons |
+|`url`| string | | Any url the button directs to or for dynamic butttons |
 |`users`| list | | |
 |`token`| string | |Access token associated with your Plex account |
 |`servers`| list | |
