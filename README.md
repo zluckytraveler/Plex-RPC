@@ -14,7 +14,7 @@ When streaming media a direct link will be provided to the media info for either
 
 A Discord bug makes the buttons unresponsive for your own account, but other users are able to use them without issue.
 
-| DATA | TYPE | | OPTION | DESCRIPTION |
+| DATA | TYPE | OPTION | DESCRIPTION |
 | --- | --- | --- | --- |
 |`logging`| [list] | | |
 |`debug`| [boolean] | `true` or `false` | Extra logging information |
