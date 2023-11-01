@@ -17,29 +17,6 @@ When streaming media a direct link will be provided to the media info for either
 <br />
 <br />
 
-| DATA | TYPE | OPTION | DESCRIPTION |
-| --- | --- | --- | --- |
-|`logging`| list | | |
-|`debug`| boolean | true/false | Extra logging information |
-|`writeToFile`| boolean | true/false | Writes everything ouputted to a console.log |
-|`hideTotalTime`| boolean | true/false | Hides the total duration of the media |
-|`useRemainingTime`| boolean | true/false | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
-|`posters`| list | | |
-|`enabled`| boolean | true/false | Allows media posters instead logo image |
-|`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
-|`buttons`| list | optional | |
-|`label`| string | | The label that shows for the button | 
-|`url`| string | | Any url link you want the button to be directed to when clicked or using for dynamic butttons for TMDB or IMDb |
-|`users`| list | | |
-|`token`| string | |Access token associated with your Plex account |
-|`servers`| list | |
-|`name`| string | | Name of the Plex Media Server |
-|`listenForUser`| string |optional | Finds a session for a specific user like a managed user or shared user, defaults to the account username if not set |
-|`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
-|`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
-
-<br />
-
 # INSTALL
 ## LOCAL
 
@@ -108,6 +85,31 @@ docker run -d \
   zluckytraveler/plex-rpc
 ```
 <br />
+<br />
+
+# CONFIG SETTINGS
+
+| DATA | TYPE | OPTION | DESCRIPTION |
+| --- | --- | --- | --- |
+|`logging`| list | | |
+|`debug`| boolean | true/false | Extra logging information |
+|`writeToFile`| boolean | true/false | Writes everything ouputted to a console.log |
+|`hideTotalTime`| boolean | true/false | Hides the total duration of the media |
+|`useRemainingTime`| boolean | true/false | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
+|`posters`| list | | |
+|`enabled`| boolean | true/false | Allows media posters instead logo image |
+|`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
+|`buttons`| list | optional | |
+|`label`| string | | The label that shows for the button | 
+|`url`| string | | Any url link you want the button to be directed to when clicked or using for dynamic butttons for TMDB or IMDb |
+|`users`| list | | |
+|`token`| string | |Access token associated with your Plex account |
+|`servers`| list | |
+|`name`| string | | Name of the Plex Media Server |
+|`listenForUser`| string |optional | Finds a session for a specific user like a managed user or shared user, defaults to the account username if not set |
+|`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
+|`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
+
 <br />
 
 # CONFIG EXAMPLE
