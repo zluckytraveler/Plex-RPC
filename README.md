@@ -17,7 +17,7 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 | DATA | TYPE | OPTION | DESCRIPTION |
 | --- | --- | --- | --- |
 |`logging`| list | | |
-|`debug`| boolean | true/false | Extra logging information |
+|`debug`| boolean | true / false | Extra logging information |
 |`writeToFile`| boolean | `true` or `false` | Writes everything ouputted to a console.log |
 |`hideTotalTime`| boolean | `true` or `false` | Hides the total duration of the media |
 |`useRemainingTime`| boolean | `true` or `flase` | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
