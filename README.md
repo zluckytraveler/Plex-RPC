@@ -23,17 +23,17 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 |`useRemainingTime`| [boolean] | `true` or `flase` | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
 |`posters`| [list] | | |
 |`enabled`| [boolean] | `true` or `false` | Allows media posters instead logo image |
-|`imgurClientID`| [integer] |(optional) | Client ID from Imgur needed for media posters |
-|`buttons`| [list] | (optional) | |
+|`imgurClientID`| [integer] |optional | Client ID from Imgur needed for media posters |
+|`buttons`| [list] | optional | |
 |`label`| [string] | | The label that shows for the button | 
 |`url`| [string] | | Any url link you want the button to be directed to when clicked or using for dynamic butttons for TMDB or IMDb |
 |`users`| [list] | | |
 |`token`| [string] | |Access token associated with your Plex account |
 |`servers`| [list] | |
 |`name`| [string] | | Name of the Plex Media Server |
-|`listenForUser`| [string] |(optional) | Finds a session for a specific user like a managed user or shared user (Defaults to the account username if not set) |
-|`blacklistedLibraries`| [list] | (optional) | Ignores a session that thats found with this library name |
-|`whitelistedLibraries`| [list] | (optional) | Only finds a session that thats found with this library name |
+|`listenForUser`| [string] |optional | Finds a session for a specific user like a managed user or shared user Defaults to the account username if not set |
+|`blacklistedLibraries`| [list] | optional | Ignores a session that thats found with this library name |
+|`whitelistedLibraries`| [list] | optional | Only finds a session that thats found with this library name |
 
 **__DOCKER INSTALL__**
 1. Run Discord Docker
