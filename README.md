@@ -39,7 +39,6 @@ When streaming media a direct link will be provided to the media info for either
 |`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
 
 <br />
-<br />
 
 # INSTALL
 
