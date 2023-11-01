@@ -45,6 +45,8 @@ When streaming media a direct link will be provided to the media info for either
 
 When the script runs for the first time, you need to follow the prompts for connecting your Plex account, and a `config.json` file will automatically be created.
 
+***The script must be running on the same machine as your Discord client.***
+
 ### PREREQUISITES
 - Python 3.10
 -  Pip
