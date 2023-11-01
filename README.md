@@ -57,7 +57,7 @@ When streaming media a direct link will be provided to the media info for either
 1. `cd <path to directory>`
 2. `py -m pip install -U -r requirements.txt`
 3. `py bot.py`
-<br />
+
 <br />
 
 ## DOCKER
