@@ -74,14 +74,14 @@ When the script runs for the first time, you need to follow the prompts for conn
 7. Check output for URL to connect Plex account
 8. Add extra settings to `config.json` and restart Plex-RPC container (Optional)
 
-***Both containers must be running on the same server.***
-
 <br />
 
 Replace with your own information. 
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
+
+***Both containers must be running on the same server.***
 
 <br />
 
