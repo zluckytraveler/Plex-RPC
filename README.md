@@ -65,8 +65,6 @@ When the script runs for the first time, you need to follow the prompts for conn
 
 ## DOCKER
 
-***Both containers must be running on the same server.***
-
 1. Run Discord Docker
 2. Go to https://YOUR-IP:6901
 3. User = `kasm_user`
@@ -75,6 +73,9 @@ When the script runs for the first time, you need to follow the prompts for conn
 6. Run Plex-RPC Docker
 7. Check output for URL to connect Plex account
 8. Add extra settings to `config.json` and restart Plex-RPC container (Optional)
+
+***Both containers must be running on the same server.***
+
 <br />
 
 Replace with your own information. 
