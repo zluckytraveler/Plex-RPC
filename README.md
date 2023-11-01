@@ -48,29 +48,29 @@ Replace with your own information.
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
-
-```docker run -d \
+  
+```
+docker run -d \
   --name Discord \
   --restart unless-stopped \
   --shm-size=512m \
   -p 6901:6901 \
   -e VNC_PW=PASSWORD \
   -v /PATH/TO/Plex-RPC/unix-socket:/tmp \
-  kasmweb/discord:1.14.0```
+  kasmweb/discord:1.14.0
 
-```docker run -d \
+docker run -d \
   --name Plex-RPC \
   --restart unless-stopped \
   -e PLEX_SERVER_NAME=YOURSERVER \
   -v /PATH/TO/Plex-RPC/data:/app/data \
   -v /PATH/TO/Plex-RPC/unix-socket:/run/app:ro \
-  zluckytraveler/plex-rpc```
-
-
+  zluckytraveler/plex-rpc
+```
 
 EXAMPLE: config.json
 
-```json
+```
 {
   "logging": {
     "debug": true,
@@ -111,3 +111,4 @@ EXAMPLE: config.json
     }
   ]
 }
+```
