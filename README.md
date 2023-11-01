@@ -41,8 +41,8 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 ## LOCAL
 
 ### PREREQUISITES
-1. Python 3.10
-2. Pip
+- Python 3.10
+-  Pip
    
 **Mac & Linux**
 1. `cd <path to directory>`
@@ -55,7 +55,9 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 3. `py bot.py`
 <br />
 <br />
+
 ## DOCKER
+
 1. Run Discord Docker
 2. Go to https://YOUR-IP:6901 (Can use different pc) 
 3. User = `kasm_user`
@@ -70,8 +72,10 @@ Replace with your own information.
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
+  
 <br />
 <br />
+
 **Docker Discord**
 ```
 docker run -d \
@@ -83,6 +87,7 @@ docker run -d \
   -v /PATH/TO/Plex-RPC/unix-socket:/tmp \
   kasmweb/discord:1.14.0
 ```
+
 **Plex-RPC**
 ```
 docker run -d \
