@@ -80,7 +80,7 @@ docker run -d \
 |`posters`| list | | |
 |`enabled`| boolean | true/false | Allows media posters instead logo image |
 |`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
-|`buttons`| list | | |
+|`buttons`| list | optional | |
 |`label`| string | optional | The label that shows for the button | 
 |`url`| string | optional | Any url the button directs to or for dynamic butttons |
 |`users`| list | | |
