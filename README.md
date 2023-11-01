@@ -17,12 +17,12 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 | DATA | TYPE | OPTION | DESCRIPTION |
 | --- | --- | --- | --- |
 |`logging`| list | | |
-|`debug`| boolean | true / false | Extra logging information |
-|`writeToFile`| boolean | `true` or `false` | Writes everything ouputted to a console.log |
-|`hideTotalTime`| boolean | `true` or `false` | Hides the total duration of the media |
-|`useRemainingTime`| boolean | `true` or `flase` | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
+|`debug`| boolean | true/false | Extra logging information |
+|`writeToFile`| boolean | true/false | Writes everything ouputted to a console.log |
+|`hideTotalTime`| boolean | true/false | Hides the total duration of the media |
+|`useRemainingTime`| boolean | true/false | Displays your media's remaining time instead of elapsed time in your Rich Presence if enabled |
 |`posters`| list | | |
-|`enabled`| boolean | `true` or `false` | Allows media posters instead logo image |
+|`enabled`| boolean | true/false | Allows media posters instead logo image |
 |`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
 |`buttons`| list | optional | |
 |`label`| string | | The label that shows for the button | 
