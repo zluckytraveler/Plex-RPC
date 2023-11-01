@@ -1,7 +1,8 @@
 # INSTALL
-## LOCAL
 
 When the script runs for the first time, you need to follow the prompts for connecting your Plex account, and a `config.json` file will automatically be created.
+
+## LOCAL
 
 ***The script must be running on the same server as your Discord client.***
 
