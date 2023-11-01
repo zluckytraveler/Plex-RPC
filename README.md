@@ -35,7 +35,27 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 |`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
 |`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
 
-**__DOCKER INSTALL__**
+
+# INSTALL
+
+## LOCAL
+
+### PREREQUISITES
+1. Python 3.10
+2. Pip
+   
+**Mac & Linux**
+1. `cd <path to directory>`
+2. `python3 -m pip install -U -r requirements.txt`
+3. `python3 bot.py`
+
+**Windows**
+1. `cd <path to directory>`
+2. `py -m pip install -U -r requirements.txt`
+3. `py bot.py`
+
+
+**DOCKER**
 1. Run Discord Docker
 2. Go to https://YOUR-IP:6901 (Can use different pc) 
 3. User = `kasm_user`
@@ -49,7 +69,8 @@ Replace with your own information.
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
-  
+
+**Docker Discord**
 ```
 docker run -d \
   --name Discord \
@@ -59,7 +80,9 @@ docker run -d \
   -e VNC_PW=PASSWORD \
   -v /PATH/TO/Plex-RPC/unix-socket:/tmp \
   kasmweb/discord:1.14.0
-
+```
+**Plex-RPC**
+```
 docker run -d \
   --name Plex-RPC \
   --restart unless-stopped \
