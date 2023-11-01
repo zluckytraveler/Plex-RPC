@@ -75,7 +75,7 @@ docker run -d \
 |`debug`| boolean | true/false | Extra logging information |
 |`writeToFile`| boolean | true/false | Writes everything ouputted to a console.log |
 |`hideTotalTime`| boolean | true/false | Hides the total duration of the media |
-|`useRemainingTime`| boolean | true/false | Displays your remaining session time instead of elapsed time |
+|`useRemainingTime`| boolean | true/false | Displays your remaining time instead of elapsed time |
 |`posters`| list | | |
 |`enabled`| boolean | true/false | Allows media posters instead logo image |
 |`imgurClientID`| integer |optional | Client ID from Imgur needed for media posters |
