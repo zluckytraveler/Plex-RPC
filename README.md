@@ -43,6 +43,8 @@ When streaming media a direct link will be provided to the media info for either
 # INSTALL
 ## LOCAL
 
+When the script runs for the first time, you have to follow the on screen prompt for connecting to your Plex account, and a `config.json` file will automatically be created in the same directory.
+
 ### PREREQUISITES
 - Python 3.10
 -  Pip
