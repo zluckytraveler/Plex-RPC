@@ -45,7 +45,7 @@ When streaming media a direct link will be provided to the media info for either
 
 When the script runs for the first time, you need to follow the prompts for connecting your Plex account, and a `config.json` file will automatically be created.
 
-***The script must be running on the same machine as your Discord client.***
+***The script must be running on the same server as your Discord client.***
 
 ### PREREQUISITES
 - Python 3.10
@@ -64,6 +64,8 @@ When the script runs for the first time, you need to follow the prompts for conn
 <br />
 
 ## DOCKER
+
+***Both containers must be running on the same server.***
 
 1. Run Discord Docker
 2. Go to https://YOUR-IP:6901
