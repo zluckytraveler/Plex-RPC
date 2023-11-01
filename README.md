@@ -67,7 +67,6 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 7. Check output for URL to connect Plex account
 8. Add extra settings to `config.json`and restart Plex-RPC container (Optional)
 <br />
-<br />
 
 Replace with your own information. 
 - `/PATH/TO/`
