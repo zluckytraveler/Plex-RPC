@@ -63,7 +63,7 @@ When streaming media a direct link will be provided to the media info for either
 ## DOCKER
 
 1. Run Discord Docker
-2. Go to https://YOUR-IP:6901 (Can use different pc) 
+2. Go to https://YOUR-IP:6901
 3. User = `kasm_user`
 4. Password = Set in Run Command
 5. Login to your Discord Account
