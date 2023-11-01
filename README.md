@@ -68,12 +68,12 @@ A Discord bug makes the buttons unresponsive for your own account, but other use
 8. Add extra settings to `config.json`and restart Plex-RPC container (Optional)
 <br />
 <br />
+
 Replace with your own information. 
 - `/PATH/TO/`
 - `PASSWORD`
 - `YOURSERVER`
-  
-<br />
+
 <br />
 
 **Docker Discord**
