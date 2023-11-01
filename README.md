@@ -38,6 +38,8 @@ When streaming media a direct link will be provided to the media info for either
 |`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
 |`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
 
+<br />
+<br />
 
 # INSTALL
 
