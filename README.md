@@ -104,7 +104,7 @@ docker run -d \
 <br />
 <br />
 
-# EXAMPLE CONFIG.JSON
+# CONFIG EXAMPLE
 
 ```
 {
