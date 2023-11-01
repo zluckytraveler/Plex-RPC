@@ -87,7 +87,7 @@ docker run -d \
 |`token`| string | |Access token associated with your Plex account |
 |`servers`| list | |
 |`name`| string | | Name of the Plex Media Server |
-|`listenForUser`| string |optional | Finds a session for a specific user, like managed or shared user, defaults to the account username |
+|`listenForUser`| string |optional | Finds a specific shared or managed user, defaults to the account user |
 |`blacklistedLibraries`| list | optional | Ignores a session that thats found with this library name |
 |`whitelistedLibraries`| list | optional | Only finds a session that thats found with this library name |
 
