@@ -11,8 +11,7 @@
       "imgurClientID": "1234567890"
   },
   "buttons": [
-    {
-    "label": "IMDb",
+  { "label": "IMDb",
     "url": "dynamic:imdb"
     },
     {
@@ -22,11 +21,9 @@
     ]
   },
   "users": [
-    {
-    "token": "PLEX TOKEN",
+  { "token": "PLEX TOKEN",
     "servers": [
-      {
-      "name": "PLEX SERVER NAME"
+    { "name": "PLEX SERVER NAME"
       },
       {
       "name": "YOUR USERNAME",
