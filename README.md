@@ -143,7 +143,6 @@ When streaming media a direct link will be provided to the media info for either
     { "name": "PLEX SERVER NAME"
       },
       {
-      "name": "YOUR USERNAME",
       "listenForUser": "MANAGED/SHARED USERNAME",
       "whitelistedLibraries": ["Movies"],
       "blacklistedLibraries": ["TV Shows"]
