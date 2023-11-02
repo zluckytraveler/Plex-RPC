@@ -113,7 +113,7 @@ When streaming media a direct link will be provided to the media info for either
 
 # CONFIG EXAMPLE
 
-```
+```json
 {
   "logging": {
     "debug": true,
