@@ -26,7 +26,6 @@
     { "name": "PLEX SERVER NAME"
       },
       {
-      "name": "YOUR USERNAME",
       "listenForUser": "MANAGED/SHARED USERNAME",
       "whitelistedLibraries": ["Movies"],
       "blacklistedLibraries": ["TV Shows"]
