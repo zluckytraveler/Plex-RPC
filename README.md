@@ -128,29 +128,29 @@ When streaming media a direct link will be provided to the media info for either
       "imgurClientID": "1234567890"
   },
   "buttons": [
-      {
-        "label": "IMDb",
-        "url": "dynamic:imdb"
-      },
-      {
-        "label": "YOUR BUTTON LABEL",
-        "url": "https://www.YourURLHere.com"
-      }
+    {
+    "label": "IMDb",
+    "url": "dynamic:imdb"
+    },
+    {
+    "label": "YOUR BUTTON LABEL",
+    "url": "https://www.YourURLHere.com"
+    }
     ]
   },
   "users": [
     {
-      "token": "PLEX TOKEN",
-      "servers": [
-        {
-          "name": "PLEX SERVER NAME"
-        },
-        {
-          "name": "YOUR USERNAME",
-          "listenForUser": "MANAGED/SHARED USERNAME",
-          "whitelistedLibraries": ["Movies"],
-          "blacklistedLibraries": ["TV Shows"]
-        }
+    "token": "PLEX TOKEN",
+    "servers": [
+      {
+      "name": "PLEX SERVER NAME"
+      },
+      {
+      "name": "YOUR USERNAME",
+      "listenForUser": "MANAGED/SHARED USERNAME",
+      "whitelistedLibraries": ["Movies"],
+      "blacklistedLibraries": ["TV Shows"]
+      }
       ]
     }
   ]
