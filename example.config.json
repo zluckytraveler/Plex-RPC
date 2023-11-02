@@ -12,12 +12,12 @@
   },
   "buttons": [
       {
-        "label": "IMDb",
-        "url": "dynamic:imdb"
+      "label": "IMDb",
+      "url": "dynamic:imdb"
       },
       {
-        "label": "YOUR BUTTON LABEL",
-        "url": "https://www.YourURLHere.com"
+      "label": "YOUR BUTTON LABEL",
+      "url": "https://www.YourURLHere.com"
       }
     ]
   },
