@@ -11,14 +11,16 @@ When the script runs for the first time, you need to follow the prompts for conn
 -  Pip
    
 ### Mac & Linux
-1. `cd <path to directory>`
-2. `python3 -m pip install -U -r requirements.txt`
-3. `python3 bot.py`
+1. Download the [repository](https://github.com/zluckytraveler/Plex-RPC/archive/refs/heads/main.zip)
+2. `cd <path to directory>`
+3. `python3 -m pip install -U -r requirements.txt`
+4. `python3 bot.py`
 
 ### Windows
-1. `cd <path to directory>`
-2. `py -m pip install -U -r requirements.txt`
-3. `py bot.py`
+1. Download the [repository](https://github.com/zluckytraveler/Plex-RPC/archive/refs/heads/main.zip)
+2. `cd <path to directory>`
+3. `py -m pip install -U -r requirements.txt`
+4. `py bot.py`
 
 <br />
 
