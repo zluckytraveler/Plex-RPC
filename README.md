@@ -98,7 +98,7 @@ docker run -d \
 
 ## Obtaining Imgur Client ID (Optional)
 
-1. Go to Imgur's application registration page (<https://api.imgur.com/oauth2/addclient>)
+1. Go to [Imgur's application registration](https://api.imgur.com/oauth2/addclient)
 2. Enter a name for the application and select "OAuth2 without a callback URL", and enter you email address.
 3. Submit the form to obtain your application's client ID
 
